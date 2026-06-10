@@ -1,10 +1,19 @@
 import React from "react";
 import Card from "./components/Card";
+import googleLogo from "./assets/logos/google.png";
+import microsoftLogo from "./assets/logos/microsoft.png";
+import amazonLogo from "./assets/logos/amazon.png";
+import netflixLogo from "./assets/logos/netflix.png";
+import spotifyLogo from "./assets/logos/spotify.png";
+import airbnbLogo from "./assets/logos/airbnb.png";
+import metaLogo from "./assets/logos/meta.png";
+import appleLogo from "./assets/logos/apple.png";
+import shopifyLogo from "./assets/logos/shopify.png";
 
 const App = () => {
   const jobOpenings = [
     {
-      brandLogo: "src/assets/logos/google.png",
+      brandLogo: googleLogo,
       companyName: "Google",
       datePosted: "2 days ago",
       position: "Flutter Developer",
@@ -14,7 +23,7 @@ const App = () => {
       location: "Mountain View, CA",
     },
     {
-      brandLogo: "src/assets/logos/microsoft.png",
+      brandLogo: microsoftLogo,
       companyName: "Microsoft",
       datePosted: "5 days ago",
       position: "React Native Developer",
@@ -24,7 +33,7 @@ const App = () => {
       location: "Redmond, WA",
     },
     {
-      brandLogo: "src/assets/logos/amazon.png",
+      brandLogo: amazonLogo,
       companyName: "Amazon",
       datePosted: "1 week ago",
       position: "Mobile App Engineer",
@@ -34,7 +43,7 @@ const App = () => {
       location: "Seattle, WA",
     },
     {
-      brandLogo: "src/assets/logos/netflix.png",
+      brandLogo: netflixLogo,
       companyName: "Netflix",
       datePosted: "3 days ago",
       position: "Android Developer",
@@ -44,7 +53,7 @@ const App = () => {
       location: "Los Gatos, CA",
     },
     {
-      brandLogo: "src/assets/logos/spotify.png",
+      brandLogo: spotifyLogo,
       companyName: "Spotify",
       datePosted: "2 weeks ago",
       position: "Machine Learning Engineer",
@@ -54,7 +63,7 @@ const App = () => {
       location: "New York, NY",
     },
     {
-      brandLogo: "src/assets/logos/airbnb.png",
+      brandLogo: airbnbLogo,
       companyName: "Airbnb",
       datePosted: "4 days ago",
       position: "iOS Developer",
@@ -64,7 +73,7 @@ const App = () => {
       location: "San Francisco, CA",
     },
     {
-      brandLogo: "src/assets/logos/meta.png",
+      brandLogo: metaLogo,
       companyName: "Meta",
       datePosted: "1 day ago",
       position: "Backend Developer",
@@ -74,7 +83,7 @@ const App = () => {
       location: "Menlo Park, CA",
     },
     {
-      brandLogo: "src/assets/logos/apple.png",
+      brandLogo: appleLogo,
       companyName: "Apple",
       datePosted: "3 weeks ago",
       position: "iOS Engineer",
@@ -84,7 +93,7 @@ const App = () => {
       location: "Cupertino, CA",
     },
     {
-      brandLogo: "src/assets/logos/shopify.png",
+      brandLogo: shopifyLogo,
       companyName: "Shopify",
       datePosted: "1 week ago",
       position: "Frontend Mobile Developer",
