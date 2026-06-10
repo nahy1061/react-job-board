@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+}
+.card {
+  height: 300px;
+  width: 240px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid rgb(196, 193, 193);
+  padding: 2px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 5px 10px;
+  border: 1.5px solid rgb(196, 193, 193);
+  color: rgb(196, 193, 193);
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.core {
+  padding: 5px;
+}
+.core h3 {
+  font-size: 14px;
+}
+
+.core h3 span {
+  font-size: 10px;
+  color: rgb(196, 193, 193);
+}
+
+.core h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.core .tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tags h4 {
+  background-color: rgb(220, 215, 215);
+  color: black;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+
+.bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1.5px solid rgb(217, 224, 220);
+  padding-top: 15px;
+}
+
+.bottom h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.bottom p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: rgb(196, 193, 193);
+}
+
+.bottom button {
+  background-color: black;
+  padding: 8px 16px;
+  border: none;
+  color: rgb(196, 193, 193);
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
