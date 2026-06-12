@@ -28,6 +28,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .top {
@@ -118,4 +125,15 @@ body {
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.bottom button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.bottom button:active {
+  transform: scale(0.95);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
 }

@@ -24,7 +24,7 @@ const Card = (props) => {
                     <h3>{props.pay}</h3>
                     <p>{props.location}</p>
                 </div>
-                <button>Apply Now</button>
+                <a href="#"><button>Apply Now</button></a>
             </div>
      
     </div>
